@@ -1,6 +1,6 @@
 # Dynamic Pricing App on Ride Sharing Case
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](deploymentlink) 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dynamic-pricing-ride-fares-app.streamlit.app/) 
 
 ## 🔍 About the project
 
@@ -8,20 +8,20 @@ This Streamlit application empowers users to estimate ride costs using a dynamic
 
 This project involved several key steps:
 
-1. Data Wrangling: Data [was obtained from](https://statso.io/dynamic-pricing-case-study/) and meticulously prepared for analysis.
+1. Data Wrangling: Data was obtained from [statso.io](https://statso.io/dynamic-pricing-case-study/) and meticulously prepared for analysis.
 2. Exploratory Data Analysis: The data was thoroughly examined to understand its characteristics and identify potential patterns.
 3. Feature Engineering: New features namely 'Dynamic_Price_M1' that is calculated using demand and supply multipliers, were created to generate adjusted fares.
 4. Model Building and Evaluation: The CatBoost Regression model was trained and rigorously evaluated to ensure its accuracy. Hyperparameters were also optimized for peak performance.
 5. Model Deployment: Finally, the model was deployed within the Streamlit app, making it accessible to users.
 
-## Setup environment
+## ⚒️ Setup environment
 ```
 conda create --name dynamic-pricing-app python=3.9
 conda activate dynamic-pricing-app
 pip install streamlit pickle-mixin pandas
 ```
 
-## Run streamlit app
+## 🚀 Run streamlit app
 ```
 streamlit run app.py
 ```
