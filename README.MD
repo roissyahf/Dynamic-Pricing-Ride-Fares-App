@@ -10,7 +10,7 @@ This project involved several key steps:
 
 1. Data Wrangling: Data was obtained from [statso.io](https://statso.io/dynamic-pricing-case-study/) and meticulously prepared for analysis.
 2. Exploratory Data Analysis: The data was thoroughly examined to understand its characteristics and identify potential patterns.
-3. Feature Engineering: New features namely 'Dynamic_Price_M1' that is calculated using demand and supply multipliers, were created to generate adjusted fares.
+3. Feature Engineering: Calculated adjusted fares by incorporating demand and supply multipliers.
 4. Model Building and Evaluation: The CatBoost Regression model was trained and rigorously evaluated to ensure its accuracy. Hyperparameters were also optimized for peak performance.
 5. Model Deployment: Finally, the model was deployed within the Streamlit app, making it accessible to users.
 
