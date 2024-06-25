@@ -5,9 +5,8 @@ import pandas as pd
 # load the model
 model = pickle.load(open('catboost_tuning.pkl', 'rb'))
 
-st.set_page_config(page_title="Dynamic Pricing Ride Fares", page_icon=":car:")
-
 # add title
+st.set_page_config(page_title="Dynamic Pricing Ride Fares", page_icon=":car:")
 st.title('Dynamic Pricing on Cost of the Rides')
 st.write('Dynamically adjust prices in response to changing factors')
 
